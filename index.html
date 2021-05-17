@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="block1">
+        <div class="text-center">
+          <h1
+            class="mb-3 display-4"
+            style="
+              color: #fff;
+              font-weight: bold;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+              font-style: italic;
+            "
+          >
+            Test your Javascript skill
+          </h1>
+          <p class="text-light h3 mb-4" style="font-weight: bold">
+            You get 5 score for each correct answer out of 10
+          </p>
+          <button id="start">Start</button>
+        </div>
+      </div>
+
+      <div class="block2">
+        <div class="time display-3">Time: <span>60</span>s</div>
+        <form name="questions"></form>
+        <div class="row justify-content-between mt-4">
+          <button id="next" class="btn btn-info">Next</button>
+          <button id="finish" class="btn btn-dark">Finish</button>
+        </div>
+      </div>
+      <div class="block3">
+        <div class="score display-3"></div>
+        <div class="finalTime display-4"></div>
+        <button class="back">Go Back</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
